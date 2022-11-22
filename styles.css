@@ -59,7 +59,6 @@ main {
   border-radius: 5px;
   box-shadow: 0 5px 15px 5px hsla(212, 86%, 64%, 10%);
   margin: 0.7em 0;
-  max-width: 350px;
 }
 
 .card img {
@@ -76,6 +75,12 @@ main {
 .card p {
   color: hsl(229, 6%, 66%);
   font-size: 0.8rem;
+}
+
+.flex-item1,
+.flex-item2,
+.flex-item3 {
+  max-width: 350px;
 }
 
 .flex-item2 {
@@ -105,7 +110,7 @@ main {
   border-top: 4px solid hsl(212, 86%, 64%);
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
   body {
     font-size: 20px;
   }
