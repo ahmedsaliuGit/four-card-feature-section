@@ -128,6 +128,13 @@ main {
     font-size: 2rem;
   }
 
+  .title-light,
+  .title-bold,
+  .desc {
+    text-align: center;
+    line-height: 1.5em;
+  }
+
   .card-body {
     flex-direction: row;
     justify-content: center;
